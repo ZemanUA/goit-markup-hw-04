@@ -32,7 +32,9 @@ header {
 	line-height: 24px;
 	letter-spacing: 2px;
 	border-bottom: 1px solid #e7e9fc;
-
+	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+		0px 1px 1px rgba(46, 47, 66, 0.16),
+		0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 /* navigation-start */
@@ -82,7 +84,8 @@ header {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #2e2f42;
+	position: relative;
+	color: #404bbf;
 	padding: 24px 0;
 }
 
@@ -107,7 +110,7 @@ header {
 
 .contacts-item {
 	text-decoration: none;
-	color: #2E2F42;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	font-weight: regular;
@@ -139,6 +142,9 @@ header {
 /* section-main-header-start */
 
 .main-header {
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office.png);
+	background-position: center;
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	gap: 67px;
@@ -147,6 +153,7 @@ header {
 	height: 600px;
 	background-color: #2E2F42;
 	padding: 188px 0;
+	max-width: 1440px;
 }
 
 .first-header {
@@ -178,6 +185,7 @@ header {
 	letter-spacing: 2px;
 	letter-spacing: 0.04em;
 	cursor: pointer;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-header-button:hover {
@@ -262,6 +270,16 @@ header {
 
 }
 
+.info-list-cards{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 112px;
+	background-color: #f4f4fd;
+	border-radius: 4px;
+	border: 1px solid #8e8f99;
+	margin-bottom: 8px;
+}
 /* section-info-end */
 
 
