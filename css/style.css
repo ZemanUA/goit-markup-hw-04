@@ -20,11 +20,9 @@ body {
 	font-family: 'Roboto', sans-serif;
 	background-color: #FFFFFF;
 	color: #434455;
-	margin: 0;
 }
 
 .container {
-	display: flex;
 	width: 1158px;
 	margin: 0 auto;
 	padding: 0 15px;
@@ -32,7 +30,6 @@ body {
 
 /* header */
 header {
-	margin: 0;
 	display: flex;
 	justify-content: space-between;
 	height: 72px;
@@ -50,14 +47,12 @@ header {
 /* navigation-start */
 
 .navigation {
-	margin: 0%;
 	display: flex;
 	align-items: center;
 
 }
 
 .menu {
-	margin: 0%;
 	list-style-type: none;
 	display: flex;
 	justify-content: space-around;
@@ -498,7 +493,6 @@ footer {
 	letter-spacing: 0.02em;
 	line-height: 1.5;
 	color: #F4F4FD;
-	margin: 0;
 	max-width: 264px
 }
 
