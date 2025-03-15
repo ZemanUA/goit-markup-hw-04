@@ -1,3 +1,24 @@
+ul,ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+    margin: 0;
+}
+
 .container {
 	max-width: 1158px;
 	padding: 0 15px;
